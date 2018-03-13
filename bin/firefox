@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/Applications/Firefox.app/Contents/MacOS/firefox -P "$1" -foreground >/dev/null 2>&1 &
