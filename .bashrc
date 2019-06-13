@@ -7,7 +7,7 @@ alias autodeployment='pushd ~/code/autodeployment_cjameson_mac'
 
 . ~/.secret_values
 function sandbox() {
-  lpass show $sandbox_lpass | tail -1 | awk '{ print $2 }'
+  lpass show $sandbox_lpass | grep password | awk '{ print $2 }'
 }
 
 export -f sandbox
