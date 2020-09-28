@@ -4,7 +4,8 @@
 - can zsh update itself? if so, do that
 - do we have git? do we need developer tools for that or something? would brew install it and manage it, or vice-versa?
 - install brew. script it?
-- shift-it
+  + nah
+- hammerspoon and the shift-it spoon
 - flycut
 - Antigen?
 - oh-my-zsh?
