@@ -1,0 +1,8 @@
+host github.com
+ HostName github.com
+ IdentityFile ~/.ssh/cjcjameson_github
+ User git
+
+Host gitlab.tableausoftware.com
+  Preferredauthentications publickey
+  IdentityFile ~/.ssh/tableau_gitlab_ed25519

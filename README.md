@@ -7,12 +7,15 @@
   + nah
 - hammerspoon and the shift-it spoon
 - flycut
+
+- pegasus
+  - with the environment-setup script
+  - and build etc.
+
 - Antigen?
 - oh-my-zsh?
   - customize?
-- port dot-files from bash to zsh; check them in
-- nlpcore
-  - and build etc.
+- port dot-files from bash to zsh?
 
 
 ### Path
