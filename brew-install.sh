@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+brew install jq
+brew install ag
+
 brew cask install flycut
 
 #shiftit
