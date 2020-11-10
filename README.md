@@ -17,7 +17,15 @@
   - customize?
 - port dot-files from bash to zsh?
 
+- vim tabs vs. spaces behavior
+
 
 ### Path
 
 export PATH="$PATH":/Users/cjameson/go/bin:/Users/cjameson/workspace/unix-personal/bin
+
+### iTerm?
+
+So far, don't need it. I remember liking it for "ctrl-click" to open a link.
+But the default macOS behavior is ctrl-double-click accomplishes the same, so
+not worth it
