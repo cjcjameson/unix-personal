@@ -4,6 +4,7 @@ brew install jq
 brew install ag
 
 brew install docker
+brew cask install docker
 
 brew cask install flycut
 
