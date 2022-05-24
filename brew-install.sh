@@ -8,10 +8,10 @@ brew install ag
 brew install docker
 brew cask install docker
 
-brew cask install flycut
+brew install --cask flycut
 
 #shiftit
-brew cask install hammerspoon
+brew install --cask hammerspoon
 
 echo "do the accessibility things for flycut and hammerspoon"
 echo "install shiftit spoon https://github.com/peterklijn/hammerspoon-shiftit#installation"
