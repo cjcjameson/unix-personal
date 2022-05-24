@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+brew install gnupg
+
 brew install jq
 brew install ag
 
