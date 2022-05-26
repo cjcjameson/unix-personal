@@ -5,8 +5,7 @@ brew install gnupg
 brew install jq
 brew install ag
 
-brew install docker
-brew cask install docker
+brew install --cask docker
 
 brew install --cask flycut
 
