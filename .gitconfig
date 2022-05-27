@@ -1,3 +1,11 @@
 [user]
 	name = C.J. Jameson
-	email = cjameson@tableau.com
+	email = cjameson@montecarlodata.com
+	signingkey = 1A2B3C4D
+# [merge]
+# 	verifySignatures = true
+[commit]
+	gpgSign = true
+[alias]
+	co = checkout
+	god = log --graph --oneline --decorate

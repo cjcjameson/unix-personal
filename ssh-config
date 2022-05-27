@@ -1,8 +1,7 @@
-host github.com
- HostName github.com
- IdentityFile ~/.ssh/cjcjameson_github
- User git
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
 
-Host gitlab.tableausoftware.com
-  Preferredauthentications publickey
-  IdentityFile ~/.ssh/tableau_gitlab_ed25519
+Host *
+  IdentityAgent "~/Library/Group Containers/1A2B3C4D.com.1password/t/agent.sock"
