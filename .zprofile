@@ -21,6 +21,7 @@ precmd() { vcs_info }
 
 zstyle ':vcs_info:git:*' formats '%b '
 
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 setopt PROMPT_SUBST
 PROMPT='
 # %F{green}%*%f %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f
